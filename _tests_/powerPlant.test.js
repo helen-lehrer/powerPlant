@@ -4,7 +4,7 @@ import { stateControl } from './../src/powerPlant.js';
 import { feed } from './../src/powerPlant.js';
 import { megaFeed } from './../src/powerPlant.js';
 import { megaHydrate } from './../src/powerPlant.js';
-import { addProperty } from './../src/powerPlant.js';
+import { imbuePsychic } from './../src/powerPlant.js';
 
 describe ('changeState', () => {
   test ('This should take a property as a first argument.', () => {
@@ -41,11 +41,11 @@ describe ('megaHydrate', () => {
   })
 })
 
-describe ('addProperty', () => {
+describe ('imbuePsychic', () => {
   test ('This should add a new property called psychicAbility with a value of 100', () => {
     const plant = { soil: 0, water: 0, light: 0};
     const storePlant = storeState(plant);
-    const psychicPlant = storePlant(changeState("psychicAbility")(100));
+    const psychicPlant = storePlant(imbuePsychic(100));
     expect(psychicPlant.psychicAbility).toEqual(100);
   })
 })
