@@ -17,7 +17,7 @@ module.exports = {
     new ESLintPlugin(),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Super Gal Age Cal',
+      title: 'Power Plant',
       template: './src/index.html',
       inject: 'body'
     })
