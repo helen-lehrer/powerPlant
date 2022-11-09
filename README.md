@@ -1,46 +1,35 @@
-# Super Galactic Age Calculator
+# Power Plant
 
-### Created by Noah Lundquist in September of 2022
-
-## Links
-
-* [Repository](https://github.com/nalundquist/supgalacal)
+### Created by Helen Lehrer and Noah Lundquist 
 
 ## Description
 
-An exercise in using webpack, Jest, eslint, et al.  When deployed displays a simple webpage which gets your age and opinions re: faith and an unnamed (possibly malevolent?) deity which then gives a calculation of how old you would be on any of the inner five planets of the Milky Way and how old you will live to based upon your fealty to aforementioned deity.  Please Note: the usage of piety towards a strange kinda-sorta Lovecraftian sounding deity being a lifespan determinant is *not* an anti-theist hot take; I just didn't want to wade into actual determinants of lifespan because I found that depressing.     
+A simple application for growing plants using functional programming. Unit testing is included. Practice goals include correctly using closures to store state when needed, code is well tested, and objects are copied instead of mutated.
 
 ## Features
 
-* Inputted number and "piety" display a sidebar of age on (whatever) planet and life expectancy based on "piety".
-* If your age on Earth is greater than your life expectancy you will be given the difference between the two on a per-planet-year basis.
+* Functionality to create multiple plants
+* Functionality so different plants have different abilities
 * More of the REDACTED joke that I'm not tired of yet
 
 ## Technologies Used
 
-* Built in VS Code (v.1.70.1) using the following languages:
-	* HTML
-	* CSS
-	* Javascript
+* HTML
+* CSS
+* Javascript
 
 * Packages used include:
 	* Webpack
 	* ESLint
-	* Babel
 	* Jest
-
-* Tested in the following browsers:
-	* Google Chrome (v.104.0)
-
 
 ## Installation
 
-* Download [Git Bash](https://git-scm.com/downloads)
 * Input the following into Git Bash to clone this repository onto your computer:
 
-		>git clone https://github.com/nalundquist/mrroboger
+		>git clone https://github.com/helen-lehrer/powerPlant
 
-* Enter the cloned project folder "supgalacal" and type:
+* Enter the cloned project folder "powerPlant" and type:
 
 		>npm install
 
@@ -48,11 +37,10 @@ An exercise in using webpack, Jest, eslint, et al.  When deployed displays a sim
 
 		>npm run start
 
-* To host the site on your machine at localhost:8080.
 
 ## Known Bugs
 
-* None at this point
+* None 
 
 ## License
 
